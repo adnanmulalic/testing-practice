@@ -1,9 +1,5 @@
 import { analyzeArray } from "../code/analyzeArray.js";
 
-
-const object = analyzeArray([1, 2, 3, 4, 5]);
-const anotherObject = analyzeArray([10, 6, 17, 2, 9, 3, 5]);
-
 test('Average of an array of numbers', () => {
     expect(analyzeArray([1, 2, 3, 4, 5])).toEqual({average: 3, min: 1, max: 5, length: 5});
 })
